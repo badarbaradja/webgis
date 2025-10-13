@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cursor Futuristik</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(120deg, #151520, #1e1e2f);
+    cursor: none; /* sembunyikan cursor default */
+  }
+
+  .cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00ffff;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff55, 0 0 30px #00ffff33;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s, box-shadow 0.2s;
+    z-index: 9999;
+  }
+
+  .trail {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ffff55;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    filter: blur(4px);
+  }
+</style>
+</head>
+<body>
+
+<div class="cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.cursor');
+  const trails = [];
+  const numTrails = 12;
+
+  for(let i = 0; i < numTrails; i++) {
+    const t = document.createElement('div');
+    t.classList.add('trail');
+    document.body.appendChild(t);
+    trails.push({el: t, x: window.innerWidth/2, y: window.innerHeight/2});
+  }
+
+  let mouseX = window.innerWidth/2;
+  let mouseY = window.innerHeight/2;
+
+  document.addEventListener('mousemove', e => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  });
+
+  function animate() {
+    cursor.style.left = mouseX + 'px';
+    cursor.style.top = mouseY + 'px';
+
+    trails.forEach((trail, i) => {
+      const next = trails[i - 1] || {x: mouseX, y: mouseY};
+      trail.x += (next.x - trail.x) * 0.2;
+      trail.y += (next.y - trail.y) * 0.2;
+      trail.el.style.left = trail.x + 'px';
+      trail.el.style.top = trail.y + 'px';
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+
+  // klik efek: membesar sebentar dan glow lebih terang
+  document.addEventListener('mousedown', () => {
+    cursor.style.width = '40px';
+    cursor.style.height = '40px';
+    cursor.style.boxShadow = '0 0 20px #00ffff, 0 0 40px #00ffff88, 0 0 60px #00ffff55';
+    setTimeout(() => {
+      cursor.style.width = '20px';
+      cursor.style.height = '20px';
+      cursor.style.boxShadow = '0 0 10px #00ffff, 0 0 20px #00ffff55, 0 0 30px #00ffff33';
+    }, 200);
+  });
+</script>
+</body>
+</html>

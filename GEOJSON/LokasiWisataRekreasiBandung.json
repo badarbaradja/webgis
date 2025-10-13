@@ -1,0 +1,540 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lokasi_Hiburan_Rekreasi_Lengkap",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Paris Van Java",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Sukajadi No.131-139",
+        "Kelurahan/Kampung": "Cipedes",
+        "Kecamatan": "Sukajadi",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40162",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/pvj.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5934297,
+          -6.8895433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Bandung Indah Plaza",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Merdeka No.56",
+        "Kelurahan/Kampung": "Citarum",
+        "Kecamatan": "Bandung Wetan",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40115",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/bip.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6082533,
+          -6.9086653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Paskal 23 Shopping Center",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Kebon Jati No.192",
+        "Kelurahan/Kampung": "Kb. Jeruk",
+        "Kecamatan": "Andir",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40181",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/paskal23.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5921845,
+          -6.9158997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Bandung Electronic Center",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Purnawarman No.13-15",
+        "Kelurahan/Kampung": "Babakan Ciamis",
+        "Kecamatan": "Bandung Wetan",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40117",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/bec.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6062149,
+          -6.9078216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Trans Studio Bandung",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Gatot Subroto No.289A",
+        "Kelurahan/Kampung": "Cibangkong",
+        "Kecamatan": "Batununggal",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40273",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/trans_studio.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6336682,
+          -6.9255538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Summarecon Mall Bandung",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Grand Bulevar No.1",
+        "Kelurahan/Kampung": "Cisaranten Kidul",
+        "Kecamatan": "Gedebage",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40295",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/summarecon_mall.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6974769,
+          -6.9556092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Transmart Buah Batu",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Terusan Buah Batu No.176c",
+        "Kelurahan/Kampung": "Cipagalo",
+        "Kecamatan": "Bojongsoang",
+        "Kabupaten/Kota": "Kabupaten Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40287",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/transmart_buahbatu.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6376568,
+          -6.9668349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "D'Botanica Bandung Mall",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Dr. Djunjunan No.143-149",
+        "Kelurahan/Kampung": "Pajajaran",
+        "Kecamatan": "Cicendo",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40173",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/dbotanica.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5825456,
+          -6.8931581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Cihampelas Walk",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Cihampelas No.160",
+        "Kelurahan/Kampung": "Cipaganti",
+        "Kecamatan": "Coblong",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40131",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/cihampelas_walk.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6017538,
+          -6.8949436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Kings Shopping Center",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Ciguriang",
+        "Kelurahan/Kampung": "Balonggede",
+        "Kecamatan": "Regol",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40251",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/kings_shopping.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6024268,
+          -6.9231105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Noah's Park",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Sukanagara No.20",
+        "Kelurahan/Kampung": "Pagerwangi",
+        "Kecamatan": "Lembang",
+        "Kabupaten/Kota": "Kabupaten Bandung Barat",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40391",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/noahs_park.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6315415,
+          -6.8302191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Pandora Experience Bandung",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Sukajadi No.173A",
+        "Kelurahan/Kampung": "Cipedes",
+        "Kecamatan": "Sukajadi",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40162",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/pandora_experience.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5937236,
+          -6.8834785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Lapangan Gasibu",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Diponegoro",
+        "Kelurahan/Kampung": "Citarum",
+        "Kecamatan": "Bandung Wetan",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40115",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/gasibu.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6179785,
+          -6.9002614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Kiara Artha Park",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Banten",
+        "Kelurahan/Kampung": "Kebonwaru",
+        "Kecamatan": "Batununggal",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40272",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/kiara_artha_park.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6396917,
+          -6.9161452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Farm House Susu Lembang",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Raya Lembang No.108",
+        "Kelurahan/Kampung": "Gudangkahuripan",
+        "Kecamatan": "Lembang",
+        "Kabupaten/Kota": "Kabupaten Bandung Barat",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40391",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/farm_house.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6047057,
+          -6.8329461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Taman Hutan Raya Ir. H. Djuanda",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Ir. H. Juanda No.99",
+        "Kelurahan/Kampung": "Ciburial",
+        "Kecamatan": "Cimenyan",
+        "Kabupaten/Kota": "Kabupaten Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40198",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/tahura.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6287047,
+          -6.8589342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Saung Angklung Udjo",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Padasuka No.118",
+        "Kelurahan/Kampung": "Pasirlayung",
+        "Kecamatan": "Cibeunying Kidul",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40192",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/saung_angklung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6533955,
+          -6.8976616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Dago Dreampark",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Dago Giri No.Km. 2.2",
+        "Kelurahan/Kampung": "Pagerwangi",
+        "Kecamatan": "Lembang",
+        "Kabupaten/Kota": "Kabupaten Bandung Barat",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40135",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/dago_dreampark.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6233641,
+          -6.8486423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Lembang Park & Zoo",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Kolonel Masturi No.171",
+        "Kelurahan/Kampung": "Sukajaya",
+        "Kecamatan": "Lembang",
+        "Kabupaten/Kota": "Kabupaten Bandung Barat",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40391",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/lembang_park_zoo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5883489,
+          -6.8041007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Kebun Binatang Bandung",
+        "Kategori": "Hiburan",
+        "Jalan": "Jl. Kebun Binatang No.6",
+        "Kelurahan/Kampung": "Lb. Siliwangi",
+        "Kecamatan": "Coblong",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40132",
+        "Kontak": "",
+        "gambar": "../Image/hiburan/kebun_binatang.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6052146,
+          -6.8901133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Alun-alun Kota Bandung",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Asia Afrika",
+        "Kelurahan/Kampung": "Kb. Pisang",
+        "Kecamatan": "Regol",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/alun_alun_bandung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6054152,
+          -6.9217504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Orchid Forest Cikole",
+        "Kategori": "Rekreasi",
+        "Jalan": "Genteng",
+        "Kelurahan/Kampung": "Cikole",
+        "Kecamatan": "Lembang",
+        "Kabupaten/Kota": "Kabupaten Bandung Barat",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40391",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/orchid_forest.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6337375,
+          -6.7800199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Museum Geologi",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Diponegoro No.57",
+        "Kelurahan/Kampung": "Cihaur Geulis",
+        "Kecamatan": "Cibeunying Kaler",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40122",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/museum_geologi.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6188804,
+          -6.9007162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nama": "Museum Konferensi Asia Afrika",
+        "Kategori": "Rekreasi",
+        "Jalan": "Jl. Asia Afrika No.65",
+        "Kelurahan/Kampung": "Braga",
+        "Kecamatan": "Sumur Bandung",
+        "Kabupaten/Kota": "Kota Bandung",
+        "Provinsi": "Jawa Barat",
+        "Kodepos": "40111",
+        "Kontak": "",
+        "gambar": "../Image/rekreasi/museum_kaa.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6068411,
+          -6.9212553
+        ]
+      }
+    }
+  ]
+}
