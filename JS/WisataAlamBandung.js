@@ -2,6 +2,8 @@ Papa.parse("../Data/LOKASI_WISATAALAM_BANDUNG.csv", {
   download: true,
   header: true,
   complete: function(results) {
+    console.log("Data Wisata Alam berhasil di-parse!", results.data); 
+
     const grid = document.getElementById("teamGrid");
     const allData = results.data.filter(row => row.Nama);
 
